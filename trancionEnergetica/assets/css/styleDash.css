@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+ES+Deco+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.fondo-negro {
+    background-color: #000000 !important; /* Negro puro */
+    color: #ffffff; /* Color de texto blanco */
+    font-family: 'Monserrat';
+}
+
+.custom-nav .nav-link {
+  color: #009929;
+}
+
+.custom-nav .nav-link:hover {
+  color: #98ff96; /* Verde más vivo para hover */
+}

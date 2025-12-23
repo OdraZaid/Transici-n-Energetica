@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/styleCal.css" />
+    <title>Calculadora - Transicion Energetica</title>
+  </head>
+
+  <body class="fondo-negro">
+    <nav class="navbar">
+      <a class="navbar-brand" href="index.html">
+        <img
+          src="assets/imagenes/LogoEnergia.png"
+          width="60"
+          height="60"
+          class="d-inline-block align-top"
+          alt="Logo de la Empresa"
+        />
+      </a>
+      <ul class="nav justify-content-center mx-auto custom-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html"
+            >Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="dashboard.html">Dashboard</a>
+        </li>
+      
+        <li class="nav-item">
+          <a class="nav-link" href="registro.html">Registrarse</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="secUno">
+      <h1 class="Titulo">Calcula tu Huella Renovable</h1>
+
+      <div class="form-wrapper">
+        <input
+          id="consumo"
+          type="number"
+          class="form-control mb-3"
+          placeholder="289 KW"
+          aria-label="Consumo"
+        />
+
+        <button type="submit" class="btn btn-outline-success w-100 mb-3">
+          Calcular
+        </button>
+      </div>
+
+      <p class="parraforRespuesta mb-0">
+        Porcentaje de huella renovable: <br />
+        <img
+          class="Icono"
+          src="assets/imagenes/energia-verde.png"
+          alt="Icono una hoja verde con un cable"
+          srcset=""
+        />
+      </p>
+      <p id="respuesta" class="respuesta mt-2"></p>
+    </section>
+  </body>
+</html>

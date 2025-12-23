@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+ES+Deco+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.custom-nav .nav-link {
+  color: #009929
+;
+}
+.custom-nav .nav-link:hover {
+  color: #98ff96; /* Verde más vivo para hover */
+}
+
+.fondo-negro {
+  background-color: #000000 !important; /* Negro puro */
+  font-family: 'Monserrat';
+  color: #ffffff; /* Color de texto blanco */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 120px;
+  
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  padding: 15px 20px;
+  z-index: 1000;
+  
+}
+
+.navbar-brand {
+  margin-right: 0;
+}
+
+.form {
+  background-color: #131313;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  width: 350px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.form h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.form-control {
+  padding: 8px;
+  border-radius: 25px;
+  border: 2px solid #009929;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.form-check {
+  display: flex;
+  text-align: center;
+}
+
+.btn.btn-outline-success {
+  font-size: 18px;
+}
+
+.respuesta{
+    background-color:#009929;
+}
+
+@media (max-width: 991px) {
+  body {
+    padding: 30px;
+  }
+
+  form {
+    width: 340px;
+  }
+}

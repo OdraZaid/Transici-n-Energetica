@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+ES+Deco+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.fondo-negro {
+  background-color: #000000 !important; /* Negro puro */
+  color: #ffffff; /* Color de texto blanco */
+  font-family: "Monserrat";
+}
+
+.custom-nav .nav-link {
+  color: #009929
+;
+}
+.custom-nav .nav-link:hover {
+  color: #98ff96; /* Verde más vivo para hover */
+}
+
+.Titulo {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.navbar {
+  padding: 0.5rem 0;
+}
+
+.Logo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.secUno {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.secUno .Titulo {
+  margin-bottom: 1.25rem;
+}
+
+.parraforRespuesta {
+  color: #003400;
+  background-color: #98ff96;
+  font-weight: 500;
+}
+
+.Icono {
+  width: 24px;
+  height: 24px;
+}
+
+.respuesta {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+/* Centrado de sección: título, input, botón y respuesta apilados */
+.secUno {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+.secUno .Titulo {
+  margin-bottom: 1.25rem;
+}
+
+/* Contenedor del formulario para limitar ancho y centrar */
+.form-wrapper {
+  width: 100%;
+  max-width: 420px;
+}
+
+/* Ajustes visuales */
+.parraforRespuesta {
+  font-weight: 500;
+  width: 100%;
+  max-width: 420px;
+  height: 80px;
+  border-radius: 5px;
+}
+.respuesta {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+/* Ajustes móviles */
+@media (max-width: 576px) {
+  .form-wrapper {
+    max-width: 320px;
+  }
+
+  .titulillo {
+    font-size: 1rem;
+  }
+  .container.d-flex {
+    gap: 0.5rem;
+  }
+}

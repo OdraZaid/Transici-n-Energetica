@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Fondo general */
+.fondo-negro {
+  background-color: #000000 !important; /* Negro puro */
+  color: #ffffff; /* Texto blanco */
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: transparent; /* Puedes cambiar a #003400 si quieres fondo sólido */
+  padding: 15px 20px;
+}
+
+.navbar-brand img {
+  width: 60px;
+  height: 60px;
+}
+
+/* Links del nav */
+.custom-nav .nav-link {
+  color: #009929;
+  transition: color 0.3s ease;
+}
+
+.custom-nav .nav-link:hover {
+  color: #98ff96; /* Verde más vivo al pasar el mouse */
+}
+
+/* Formularios */
+.form {
+  background-color: #131313;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  width: 350px;
+  text-align: center;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.form h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.form-control {
+  padding: 8px;
+  border-radius: 25px;
+  border: 2px solid #009929;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.form-check {
+  display: flex;
+  text-align: center;
+}
+
+.btn.btn-outline-success {
+  font-size: 18px;
+}
+
+.respuesta {
+  background-color: #009929;
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Tarjetas de vista previa */
+.vista-previa-tarjeta {
+  display: block;
+  max-width: 450px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000;
+  overflow: hidden;
+  margin: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.vista-previa-tarjeta:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.tarjeta-imagen {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.tarjeta-imagen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tarjeta-contenido {
+  padding: 10px 15px;
+}
+
+.tarjeta-titulo {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.tarjeta-descripcion {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.tarjeta-url {
+  font-size: 12px;
+  color: #999;
+}
+
+/* Responsivo */
+@media (max-width: 991px) {
+  body {
+    padding: 30px;
+  }
+
+  .form {
+    width: 340px;
+  }
+}
