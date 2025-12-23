@@ -28,6 +28,10 @@
   color: #98ff96; /* Verde más vivo al pasar el mouse */
 }
 
+.titulo{
+  text-align: center;
+}
+
 /* Formularios */
 .form {
   background-color: #131313;
